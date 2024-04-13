@@ -1,0 +1,64 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffb7ca;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://thumbs.dreamstime.com/b/pink-background-mothers-day-blur-stock-photos-valentines-card-abstract-dots-wallpaper-51280564.jpg?w=768);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.login-box {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-pink-background-55439601.jpg?w=768); 
+    width: 100%;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(https://thumbs.dreamstime.com/b/pretty-hot-pink-background-texture-mottled-old-purple-vintage-grunge-violet-paper-design-soft-165983927.jpg?w=768);
+    color: rgb(0, 0, 0);
+    border: 2px black solid;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F17EB2;
+}

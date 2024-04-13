@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    padding-top: 20vh   ;
+
+    background-image: url(https://wallpaperaccess.com/full/187196.jpg);
+    background-size: cover; 
+}
+h2{
+    font-size: 39px;
+}
+label{
+    font-size: 30px;
+}
+input{
+    width: 13vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    width: 10vw;
+    height:5vh;
+    margin-top: 20px;font-size: 20px;
+    background-color: #000000;
+    color: aliceblue;
+}
